@@ -1,5 +1,6 @@
 const fastify = require('fastify')({ logger: true })
 const dotenv = require("dotenv");
+const noteRoutes = require('./routes/noteRoutes');
 
 dotenv.config();
 
@@ -34,6 +35,8 @@ fastify.route({
     return { hello: 'world' }
   }
 })
+
+noteRoutes(fastify);
 
 const start = async () => {
   try {
