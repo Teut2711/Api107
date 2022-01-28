@@ -1,0 +1,17 @@
+{
+  "name": "api107",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "fastify": "^3.27.0",
+    "fastify-mongodb": "^4.1.1",
+    "mongodb": "^4.3.1"
+  }
+}
